@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <a href="index.html">
             <h1 id="logo">Winston Churchill</h1>
         </a>
@@ -25,15 +25,77 @@
                     <a href="#">Timeline</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section>Bio</section>
-    <section>Summary</section>
+    <section id="portrait-section">
+        <div id="left-about">
+            <div id="circle-outer">
+                <div id="circle-picture"></div>
+            </div>
+        </div>
+                
+        <div id="right-about">
+            <h1>Winston Churchill</h1>
+            <p>British Prime Minister | 1847 - 1964</p>
+            <p>Sir Winston Churchill was a British writer, military leader and statesman. Twice named prime minister of the United Kingdom, he forged alliances with the United States and Soviet Union to defeat Nazi Germany during World War II.
+            </p>
+        </div>
+    </section>
+    <section>
+        <div id="facts-title">Interesting facts</div>
+        <div id="facts">
+            <div>
+                <h2><i class="fas fa-medal"></i></h2>
+                <h3>Won Nobel Prize for Literature</h3>  
+            </div>
+            <div>
+                <h2><i class="fas fa-chess-queen"></i></h2>
+                <h3>Knighted by Queen Elizabeth II</h3>    
+            </div>
+            <div>
+                <h2><i class="fas fa-home"></i></h2>
+                <h3>Five children - four girls and one boy</h3>
+            </div>
+            <div>
+                <h2><i class="fas fa-graduation-cap"></i></h2>
+                <h3>British Royal Military graduate</h3>   
+            </div>
+            <div>
+                <h2><i class="fas fa-flag-usa"></i></h2>
+                <h3>Named an honorary citizen of the United States</h3>
+            </div>
+        </div>
+    </section>
+    <section id="video-section">
+        <div id="video-title"><h2>Famous Speech</h2></div>
+        <div>
+        <iframe width="50%" height="500px" src="https://www.youtube.com/embed/MkTw3_PmKtc" id="video">
+</iframe>
+        </div>
+    </section>
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/f85e136568.js" crossorigin="anonymous"></script>
 </body>
-<footer>Social media links</footer>
 
 </html>
