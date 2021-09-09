@@ -9,4 +9,27 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 350;
+    color: #606060
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
 }
