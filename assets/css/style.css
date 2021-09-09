@@ -130,7 +130,6 @@ h1, h2 {
 
 #video {
     margin: 10px 0 0 25%;
-
 }
 
 /* footer */
@@ -148,4 +147,12 @@ h1, h2 {
     margin: 1%;
     padding: 5%;
     color: #606060
+}
+
+#timeline > div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+    border: 1px
 }
