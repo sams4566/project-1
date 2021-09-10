@@ -229,10 +229,10 @@ h1, h2 {
     border: 2px solid grey;
     box-sizing: border-box;
     border-radius: 10px;
-    vertical-align: middle;
-    padding: 50px 5px;
-    background-color: #909090;
-    color: white;
+    padding: 40px 5px;
+    background-color: white;
+    color: #909090;
+    font-size: 90%;
 
 }
 
@@ -245,10 +245,10 @@ h1, h2 {
     box-sizing: border-box;
     margin-top: 190px;
     border-radius: 10px;
-    vertical-align: baseline;
-    padding: 50px 5px;
-    background-color: #909090;
-    color: white;
+    padding: 40px 5px;
+    background-color: white;
+    color: #909090;
+    font-size: 90%;
 }
 
 
@@ -259,3 +259,12 @@ h1, h2 {
 #timeline p {
     font-size: 110%;
 }
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+/*For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
