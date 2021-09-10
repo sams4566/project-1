@@ -145,6 +145,10 @@ h1, h2 {
     height: 300px;
 }
 
+#facts-section h1{
+    font-size: 80%;
+}
+
 #facts-title {
     text-align: center;
     font-size: 200%;
@@ -152,7 +156,7 @@ h1, h2 {
 }
 
 #facts {
-    height: 175px;
+    height: 150px;
 }
 
 #facts div {
@@ -175,6 +179,7 @@ h1, h2 {
 
 #video-section {
     height: 500px;
+    margin-top: -75px;
 }
 
 #video-title {
@@ -189,6 +194,8 @@ h1, h2 {
 
 .social-networks {
     text-align: center;
+    height: 5px;
+    display: clear;
 }
 
 .social-networks > li {
@@ -201,6 +208,8 @@ h1, h2 {
     padding: 5%;
     color: #606060
 }
+
+/* timeline.html */
 
 #timeline {
     height: 400px;
@@ -300,6 +309,7 @@ h1, h2 {
         width: 100%;
         overflow: hidden;
     }
+}
 
 /*For medium screen sizes from 900px wide and down */
 @media screen and (max-width: 900px) {
