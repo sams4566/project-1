@@ -25,7 +25,13 @@ h1, h2 {
 /* navigation links */
 
 #header {
-    height: 75px;
+    height: 120px;
+    background-image: url('../images/st-pauls1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -325px;
+    width: 100%;
+    overflow: hidden;
 }
 
 #menu {
@@ -149,10 +155,59 @@ h1, h2 {
     color: #606060
 }
 
-#timeline > div {
+#timeline {
+    height: 400px;
+}
+
+#st-pauls {
+    /* background-image: url('../images/st-pauls1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    clear: both;
-    height: 150px;
-    padding: 0;
-    border: 1px
+    overflow: hidden;
+}
+
+#timeline h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.timeline-parts-one {
+    width: 10%;
+    height: 200px;
+    float: left;
+    text-align: center;   
+    border: 2px solid grey;
+    box-sizing: border-box;
+    border-radius: 10px;
+    vertical-align: middle;
+    padding: 50px 5px;
+    background-color: white;
+
+}
+
+.timeline-parts-two {
+    width: 10%;
+    height: 200px;
+    float: left;
+    text-align: center;   
+    border: 2px solid grey;
+    box-sizing: border-box;
+    margin-top: 190px;
+    border-radius: 10px;
+    vertical-align: baseline;
+    padding: 50px 5px;
+    background-color: white;
+
+}
+
+
+#timeline h2 {
+    font-size: 125%;
+}
+
+#timeline p {
+    font-size: 110%;
 }
