@@ -232,8 +232,6 @@ h1, h2 {
     padding: 40px 5px;
     background-color: white;
     color: #909090;
-    font-size: 80%;
-
 }
 
 .timeline-parts-two {
@@ -248,23 +246,51 @@ h1, h2 {
     padding: 40px 5px;
     background-color: white;
     color: #909090;
-    font-size: 80%;
 }
 
-
 #timeline h2 {
-    font-size: 125%;
+    font-size: 100%;
 }
 
 #timeline p {
     font-size: 110%;
+    color: black;
 }
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
+    .timeline-parts-one {
+        width: 51%;
+        height: 200px;
+        float: left;
+        text-align: center;   
+        border: 2px solid grey;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 40px 5px;
+        background-color: white;
+        color: #909090;
+    }
+    
+    .timeline-parts-two {
+        width: 51%;
+        height: 200px;
+        float: right;
+        text-align: center;   
+        border: 2px solid grey;
+        box-sizing: border-box;
+        margin-top: 190px;
+        border-radius: 10px;
+        padding: 40px 5px;
+        background-color: white;
+        color: #909090;
+        margin-top: -1px;
+    }
 
-
+    #timeline {
+        height: 2000px;
+    }
 
 /*For medium screen sizes from 900px wide and down */
 @media screen and (max-width: 900px) {
@@ -294,7 +320,4 @@ h1, h2 {
 #menu {
    margin-top: -20px;
 }
-
-
-
 }
