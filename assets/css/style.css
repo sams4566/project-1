@@ -165,7 +165,7 @@ h1, h2 {
     width: 20%;
     height: 150px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 30px 5px 0;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
@@ -338,13 +338,9 @@ h1, h2 {
     }
 
     #bio {
-        
         margin: 20px auto 0;        
-      
-      
     }
 }
-
 
 /*For medium screen sizes from 900px wide and down */
 @media screen and (max-width: 900px) {
@@ -359,6 +355,22 @@ h1, h2 {
 #header {
     height: 115px;
 }
+}
+
+/*For medium screen sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #facts-section {
+        height: 1500px;
+    }
+    
+    #facts div {
+        width: 100%;
+        height: 150px;
+        float: left;
+        padding: 30px 5px 0;
+    }
+
+
 }
 
 /* For small screen sizes 450px and down */
