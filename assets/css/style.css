@@ -25,13 +25,14 @@ h1, h2 {
 /* navigation links */
 
 #header {
-    height: 120px;
-    background-image: url('../images/st-pauls1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center -325px;
-    width: 100%;
-    overflow: hidden;
+    height: 75px;
+    background-color: #8b8888d5;
+   
+}
+
+#header h1 {
+    color: black;
+    text-decoration: none;
 }
 
 #menu {
@@ -46,10 +47,13 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 40px;
+    text-decoration: none;
+    color: black;
 }
 
 #menu a {
     text-decoration: none;
+    color: black;
 }
 
 #menu a:hover {
@@ -63,7 +67,7 @@ h1, h2 {
 /* Section 1 */
 
 #portrait-section {
-    height: 600px;
+    height: 500px;
     width: 100%;
     position: relative;
 }
@@ -71,15 +75,22 @@ h1, h2 {
 #left-about {
     width: 50%;
     margin: 0;
-    float: left
+    float: left;
+    margin-top: 20px;
 }
 
 #right-about {
     width: 50%;
     float: right;
-    margin-top: 50px;
-
 }
+
+#bio {
+    border: 2px solid #606060;
+    height: 200px;
+    width: 70%;
+    margin-top: 100px;
+}
+
 
 #circle-outer {
     width: 400px;
@@ -96,6 +107,27 @@ h1, h2 {
     background: url('../images/portrait.jpg') no-repeat center -200px;
     height: 100%;
     border-radius: 50%;
+
+    /* animates zoom effect on portrait*/
+    animation-name: portrait-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes portrait-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+/* Interesting facts section */
+
+#facts-section {
+    height: 300px;
 }
 
 #facts-title {
@@ -105,7 +137,7 @@ h1, h2 {
 }
 
 #facts {
-    height: 300px
+    height: 175px;
 }
 
 #facts div {
@@ -127,7 +159,7 @@ h1, h2 {
 /* Video section */
 
 #video-section {
-
+    height: 500px;
 }
 
 #video-title {
@@ -160,7 +192,7 @@ h1, h2 {
 }
 
 #st-pauls {
-    /* background-image: url('../images/st-pauls1.jpg'); */
+    background-image: url('../images/st-pauls3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -184,7 +216,8 @@ h1, h2 {
     border-radius: 10px;
     vertical-align: middle;
     padding: 50px 5px;
-    background-color: white;
+    background-color: #909090;
+    color: white;
 
 }
 
@@ -199,8 +232,8 @@ h1, h2 {
     border-radius: 10px;
     vertical-align: baseline;
     padding: 50px 5px;
-    background-color: white;
-
+    background-color: #909090;
+    color: white;
 }
 
 
