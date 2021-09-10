@@ -87,7 +87,7 @@ h1, h2 {
 #bio {
     border: 2px solid #606060;
     height: 225px;
-    width: 70%;
+    width: 500px;
     margin-top: 100px;
     border-radius: 4px;
 }
@@ -192,10 +192,17 @@ h1, h2 {
 
 /* footer */
 
+#footer {
+    height: 75px;
+    display: clear;
+
+}
+
 .social-networks {
     text-align: center;
     height: 5px;
     display: clear;
+    padding: 50px;
 }
 
 .social-networks > li {
@@ -310,6 +317,34 @@ h1, h2 {
         overflow: hidden;
     }
 }
+
+/*For medium screen sizes from 1050px wide and down */
+@media screen and (max-width: 1050px) {
+
+    #portrait-section {
+        height: 750px;
+        width: 100%;
+        position: relative;
+    }
+    #left-about {
+        width: 100%;
+        margin: 0;
+        float: left;
+        margin-top: 20px;
+    }
+    
+    #right-about {
+        width: 100%;
+    }
+
+    #bio {
+        
+        margin: 20px auto 0;        
+      
+      
+    }
+}
+
 
 /*For medium screen sizes from 900px wide and down */
 @media screen and (max-width: 900px) {
