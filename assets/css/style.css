@@ -292,6 +292,15 @@ h1, h2 {
         height: 2000px;
     }
 
+    #st-pauls {
+        background-image: url('../images/st-pauls4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
 /*For medium screen sizes from 900px wide and down */
 @media screen and (max-width: 900px) {
 
