@@ -380,6 +380,32 @@ h1, h2 {
     }
 }
 
+/* For small screen sizes 550px and down */
+@media screen and (max-width: 550px) {
+
+    #circle-outer {
+        width: 250px;
+        height: 250px;
+        padding: 20px; 
+    }
+    
+    #circle-picture {
+        background: url('../images/portrait2.jpg') no-repeat center -200px;
+        height: 100%;
+        border-radius: 50%;
+    
+        /* animates zoom effect on portrait*/
+        animation-name: portrait-zoom;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+    }
+    
+
+    #bio {
+        margin: 20px auto 0;        
+    }
+}
+
 /* For small screen sizes 450px and down */
 @media screen and (max-width: 450px) {
 #header {
