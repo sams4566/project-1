@@ -232,7 +232,7 @@ h1, h2 {
     padding: 40px 5px;
     background-color: white;
     color: #909090;
-    font-size: 90%;
+    font-size: 80%;
 
 }
 
@@ -248,7 +248,7 @@ h1, h2 {
     padding: 40px 5px;
     background-color: white;
     color: #909090;
-    font-size: 90%;
+    font-size: 80%;
 }
 
 
@@ -263,8 +263,38 @@ h1, h2 {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-/*For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
 
-/* For small screen sizes 800px and down */
-@media screen and (max-width: 800px) {
+
+
+/*For medium screen sizes from 900px wide and down */
+@media screen and (max-width: 900px) {
+
+#menu {
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        margin-top: -30px;
+}
+
+#header {
+    height: 115px;
+}
+}
+
+/* For small screen sizes 450px and down */
+@media screen and (max-width: 450px) {
+#header {
+        height: 150px;
+    }
+
+#logo {
+    line-height: 50px;
+}
+
+#menu {
+   margin-top: -20px;
+}
+
+
+
+}
