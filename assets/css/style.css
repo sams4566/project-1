@@ -194,14 +194,11 @@ h1, h2 {
 
 #footer {
     height: 75px;
-    display: clear;
-
 }
 
 .social-networks {
     text-align: center;
     height: 5px;
-    display: clear;
     padding: 50px;
 }
 
@@ -381,7 +378,7 @@ h1, h2 {
 }
 
 /* For small screen sizes 550px and down */
-@media screen and (max-width: 550px) {
+/* @media screen and (max-width: 550px) {
 
     #circle-outer {
         width: 250px;
@@ -399,7 +396,7 @@ h1, h2 {
         animation-duration: 4s;
         animation-fill-mode: forwards;
     }
-    
+     */
 
     #bio {
         margin: 20px auto 0;        
