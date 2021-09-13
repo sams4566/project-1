@@ -395,6 +395,28 @@ h2 {
     }
 }
 
+/*For medium screen sizes from 630px wide and down */
+@media screen and (max-width: 630px) {
+
+    #video-section {
+        height: 220px;
+        margin-top: -75px;
+    }
+    
+    #video-title {
+        text-align: center;
+    }
+    
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    #timeline {
+        height: 2040px;
+    }
+}
+
 /* For small screen sizes 550px and down */
 @media screen and (max-width: 550px) {
 
@@ -415,9 +437,22 @@ h2 {
         animation-fill-mode: forwards;
     }
 
+    #right-about {
+        height: 50px;
+    }
+
     #bio {
         margin: 20px auto 0;
+        font-size: 80%;
+        height: 280px;
+        width: 300px;
     }
+
+    #facts-section {
+        height: 895px;
+        margin-top: -105px;
+    }
+
 }
 
 /* For small screen sizes 450px and down */
