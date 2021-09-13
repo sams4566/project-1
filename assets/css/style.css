@@ -96,12 +96,12 @@ h2 {
 }
 
 #bio h1 {
-    margin: 10px 0 0 10px;
+    margin: 10px 10px 0 10px;
     font-size: 250%;
 }
 
 #bio h2 {
-    margin: 0 0 0 10px;
+    margin: 0 10px 0 10px;
 }
 
 #bio p {
