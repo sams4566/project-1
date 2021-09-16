@@ -63,7 +63,8 @@ This webpage works on all screen sizes from 320px upwards and is easily readable
 ![Validator](https://github.com/sams4566/project-1/blob/main/media/winston8.jpg)
 
 ### Bugs
-- Solved Bugs 
+#### Solved Bugs 
+
 The video unfortunately wouldn’t play using the below code:
 
 <video src="https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s" controls>
@@ -78,7 +79,8 @@ so after trying a number of different methods using an iframe with the below cod
 
 The above code was taken from - https://www.w3schools.com/html/html_youtube.asp 
 
-- Unfixed Bugs
+#### Unfixed Bugs
+
 No unfixed bugs
 
 ## Deployment
