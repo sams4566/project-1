@@ -90,15 +90,15 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - The live link can be found here - https://sams4566.github.io/project-1/
 
 ## Credits
-- Content
-  - The facts and information on the home page were from both https://en.wikipedia.org/wiki/Winston_Churchill and https://www.biography.com/political-figure/winston-churchill 
-  - The timeline information was taken from - https://www.chu.cam.ac.uk/archives/collections/churchill-papers/sir-winston-churchill-chronology/
-  - The code for the social media links was taken from the Code Institute Love Running Project
-  - The icons throughout the site were taken from Font Awesome
+### Content
+- The facts and information on the home page were from both https://en.wikipedia.org/wiki/Winston_Churchill and https://www.biography.com/political-figure/winston-churchill 
+- The timeline information was taken from - https://www.chu.cam.ac.uk/archives/collections/churchill-papers/sir-winston-churchill-chronology/
+- The code for the social media links was taken from the Code Institute Love Running Project
+- The icons throughout the site were taken from Font Awesome
 
-- Media
-  - The portrait photo was from https://en.wikipedia.org/wiki/Winston_Churchill
-  - The video was from https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s 
-  - The background photo for the timeline was from https://en.wikipedia.org/wiki/St_Paul%27s_Survives#/media/File:Air_Raid_Damage_in_Britain_during_the_Second_World_War_HU36220.jpg 
-  - The way to embed the video link in an iframe was found at - https://www.w3schools.com/html/html_youtube.asp
-  - How to change the width and height of iframes at different screen lengths was found on the following website - https://stackoverflow.com/questions/49419074/how-can-i-change-the-height-of-an-iframe-for-different-screen-sizes 
+### Media
+- The portrait photo was from https://en.wikipedia.org/wiki/Winston_Churchill
+- The video was from https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s 
+- The background photo for the timeline was from https://en.wikipedia.org/wiki/St_Paul%27s_Survives#/media/File:Air_Raid_Damage_in_Britain_during_the_Second_World_War_HU36220.jpg 
+- The way to embed the video link in an iframe was found at - https://www.w3schools.com/html/html_youtube.asp
+- How to change the width and height of iframes at different screen lengths was found on the following website - https://stackoverflow.com/questions/49419074/how-can-i-change-the-height-of-an-iframe-for-different-screen-sizes 
