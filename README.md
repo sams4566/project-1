@@ -2,7 +2,7 @@
 
 The Winston Churchill Biography is a site that has arisen to inform users about the life and achievements of Winston Churchill. Users of the site will be able to find out information about Winston Churchill through a number of different formats such as videos, timelines, images and short facts to help them digest and remember information fast and easily. 
 
-(https://github.com/sams4566/project-1/blob/main/media/winston1)
+![Responsice Mockup](https://github.com/sams4566/project-1/blob/main/media/winston1)
 
 
 
