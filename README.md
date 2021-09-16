@@ -5,10 +5,11 @@ The Winston Churchill Biography is a site that has arisen to inform users about 
 ![Am I Responsive Mockup](https://github.com/sams4566/project-1/blob/main/media/winston1.jpg)
 
 ## Features
--__Navigation__
-Featured at the top of the page are three links that assist users with smooth navigation. There are two links to the home page (one in the top left ‘WINSTON CHURCHILL BIOGRAPHY’ and one in the top right ‘Home’) and one link to the ‘Timeline’ section.
-The navigation bar is the same on both pages which makes the site streamlined and is situated at the top of the page similar to most websites. 
-The contracting colours of white, grey and black helps establish that the page is set in the early 1900’s due to cameras being in black and white. 
+- __Navigation__
+
+  - Featured at the top of the page are three links that assist users with smooth navigation. There are two links to the home page (one in the top left ‘WINSTON CHURCHILL    BIOGRAPHY’ and one in the top right ‘Home’) and one link to the ‘Timeline’ section.
+  - The navigation bar is the same on both pages which makes the site streamlined and is situated at the top of the page similar to most websites. 
+  - The contracting colours of white, grey and black helps establish that the page is set in the early 1900’s due to cameras being in black and white. 
 
 ![Nav bar](https://github.com/sams4566/project-1/blob/main/media/winston2.jpg)
 
