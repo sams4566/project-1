@@ -47,7 +47,7 @@ The Winston Churchill Biography is a site that has arisen to inform users about 
 - __Future features__
   - Future features would include in-depth information about each time period of Winston Churchill’s life. The site at the moment is very much the key facts to help users build up a quick picture of Winston Churchill’s life. The site gives a basic structure to allow adding more pages easily.
 
-### Testing
+## Testing
   - I have tested that all the links on the site work and are responsive alongside all the images loading correctly and the video playing when clicked.
   - I tested this page on different browsers such as Google Chrome, Internet Explorer and Safari. 
 This webpage works on all screen sizes from 320px upwards and is easily readable on all devices. This was tested using the dev tools device toolbar.
@@ -81,7 +81,7 @@ The above code was taken from - https://www.w3schools.com/html/html_youtube.asp
 - Unfixed Bugs
 No unfixed bugs
 
-### Deployment
+## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the repository for project-1 and then click on the setting tab.
 - Click on the pages tab from the list of options on the left hand side of the page.
@@ -89,7 +89,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Once saved the page will take a couple of seconds to be uploaded onto the web. The link to the page will be provided above the ‘Source’ sub-section when refreshed
 - The live link can be found here - https://sams4566.github.io/project-1/
 
-### Credits
+## Credits
 - Content
   - The facts and information on the home page were from both https://en.wikipedia.org/wiki/Winston_Churchill and https://www.biography.com/political-figure/winston-churchill 
   - The timeline information was taken from - https://www.chu.cam.ac.uk/archives/collections/churchill-papers/sir-winston-churchill-chronology/
