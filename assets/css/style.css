@@ -200,9 +200,8 @@ p {
 /* footer */
 
 #footer {
-    height: 200px;
+    height: 150px;
     background-color: #8b8888d5;
-    position: block;
 }
 
 .social-networks {
@@ -217,16 +216,16 @@ p {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    margin: 55px 1%;
+    padding: 0 5%;
     color: black;
-    margin-top: 0;
+    margin-top: center;
 }
 
 /* timeline.html */
 
 #timeline {
-    height: 800px;
+    height: 820px;
 }
 
 #timeline h1 {
@@ -282,15 +281,14 @@ p {
     overflow: hidden;
     list-style-type: none;
     padding-bottom: 50px;
-    height: 300px;
+    height: 320px;
 }
 
 /* early_years.html */
 
 #early-years {
-    height: 800px;
+    height: 850px;
     width: 100%;
-    position: relative;
 }
 
 #early-years-bio {
@@ -307,7 +305,7 @@ p {
     border: 2px solid #606060;
     height: 590px;
     width: 600px;
-    margin: 90px 15% 0;
+    margin: 110px 15% 0;
     border-radius: 4px;
 }
 
@@ -324,7 +322,7 @@ p {
 
 #young-winston-churchill {
     border-radius: 4px;
-    margin: 65px 0 0 20%;
+    margin: 85px 0 0 20%;
 }
 
 /* For larger to medium screens size from 1250px wide and down */
@@ -375,7 +373,7 @@ p {
     }
 
     #timeline {
-        height: 2405px;
+        height: 2425px;
     }
 }
 
@@ -452,26 +450,51 @@ p {
     #menu {
         margin-top: -20px;
     }
+    #timeline {
+        height: 2550px;
+    }
+
+    #footer {
+        height: 200px;
+    }
+
+    .social-networks {
+        text-align: center;
+        height: 5px;
+        padding: 5px;
+    }
+    
+    .social-networks li {
+        display: inline;
+    }
+    
+    .social-networks i {
+        font-size: 160%;
+        margin: 1px 1%;
+        padding: 0 1%;
+        color: black;
+        margin-top: center;
+    }
 }
 
 /*For medium screen sizes from 650px wide and down */
 @media screen and (max-width: 650px) {
     #early-years {
-        height: auto;
+        height: 1260px;
         position: block;
     }
-    
+
     #early-years-paragraph {
-        height: auto;
-        width: 90%;
-        padding-bottom: 10px;
-        padding-right: 10px;
+        height: 730px;
+        width: 415px;
+        margin: 30px auto;
+        padding-right: 5px;
     }
 
     #young-winston-churchill {
-        margin: -10px auto 0;
+        margin: 0px auto 0;
         display: block;
-        width: 80%;
+        width: 280px;
     }
 }
 
@@ -547,5 +570,16 @@ p {
 
     #menu {
         margin-top: -20px;
+    }
+
+    #early-years {
+        height: 1550px;
+        position: block;
+    }
+
+    #early-years-paragraph {
+        height: 1020px;
+        width: 290px;
+        padding-right: 5px;
     }
 }
