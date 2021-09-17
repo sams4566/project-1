@@ -200,8 +200,9 @@ p {
 /* footer */
 
 #footer {
-    height: 250px;
+    height: 200px;
     background-color: #8b8888d5;
+    position: block;
 }
 
 .social-networks {
@@ -219,6 +220,7 @@ p {
     margin: 1%;
     padding: 5%;
     color: black;
+    margin-top: 0;
 }
 
 /* timeline.html */
@@ -286,7 +288,7 @@ p {
 /* early_years.html */
 
 #early-years {
-    height: 700px;
+    height: 800px;
     width: 100%;
     position: relative;
 }
@@ -305,7 +307,7 @@ p {
     border: 2px solid #606060;
     height: 590px;
     width: 600px;
-    margin: 50px 15% 0;
+    margin: 90px 15% 0;
     border-radius: 4px;
 }
 
@@ -320,14 +322,9 @@ p {
     color: black;
 }
 
-/* #early-years-photo img {
-    border-radius: 4px;
-    margin: 20px 0 0 20%;
-} */
-
 #young-winston-churchill {
     border-radius: 4px;
-    margin: 20px 0 0 20%;
+    margin: 65px 0 0 20%;
 }
 
 /* For larger to medium screens size from 1250px wide and down */
@@ -336,20 +333,17 @@ p {
     #early-years {
         height: 1340px;
         width: 100%;
-        position: relative;
     }
     
     #early-years-bio {
         width: 100%;
         margin: 0;
         float: left;
-        display: block;
     }
     
     #early-years-photo {
         width: 100%;
         float: left;
-        display: block;
     }
     
     #early-years-paragraph {
@@ -445,7 +439,7 @@ p {
 
 }
 
-/*For medium screen sizes from 670px wide and down */
+/*For medium screen sizes from 690px wide and down */
 @media screen and (max-width: 690px) {
     #header {
         height: 150px;
@@ -457,6 +451,27 @@ p {
 
     #menu {
         margin-top: -20px;
+    }
+}
+
+/*For medium screen sizes from 650px wide and down */
+@media screen and (max-width: 650px) {
+    #early-years {
+        height: auto;
+        position: block;
+    }
+    
+    #early-years-paragraph {
+        height: auto;
+        width: 90%;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+
+    #young-winston-churchill {
+        margin: -10px auto 0;
+        display: block;
+        width: 80%;
     }
 }
 
