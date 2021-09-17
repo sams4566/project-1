@@ -40,9 +40,7 @@ h2 {
 #menu {
     font-size: 120%;
 }
-
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
 }
 
@@ -231,6 +229,7 @@ h2 {
     background-position: center;
     width: 100%;
     overflow: hidden;
+    list-style-type: none;
 }
 
 #timeline h1 {
