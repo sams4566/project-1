@@ -40,7 +40,9 @@ h2 {
 #menu {
     font-size: 120%;
 }
-#menu, #logo {
+
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -220,17 +222,7 @@ h2 {
 /* timeline.html */
 
 #timeline {
-    height: 450px;
-}
-
-#st-pauls {
-    background-image: url('../images/st-pauls3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-    list-style-type: none;
+    height: 580px;
 }
 
 #timeline h1 {
@@ -250,6 +242,8 @@ h2 {
     padding: 40px 5px;
     background-color: white;
     color: #909090;
+    margin-top: 10px;
+    list-style-type: none;
 }
 
 .timeline-parts-two {
@@ -259,11 +253,12 @@ h2 {
     text-align: center;
     border: 2px solid grey;
     box-sizing: border-box;
-    margin-top: 190px;
     border-radius: 10px;
     padding: 40px 5px;
     background-color: white;
     color: #909090;
+    margin-top: 200px;
+    list-style-type: none;
 }
 
 #timeline h2 {
@@ -273,6 +268,18 @@ h2 {
 #timeline p {
     font-size: 110%;
     color: black;
+}
+
+#st-pauls {
+    background-image: url('../images/st-pauls3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    list-style-type: none;
+    padding-bottom: 50px;
+    height: 500px;
 }
 
 /* early_years.html */
@@ -321,7 +328,7 @@ h2 {
 @media screen and (max-width: 1200px) {
 
     .timeline-parts-one {
-        width: 51%;
+        width: 10%;
         height: 200px;
         float: left;
         text-align: center;
@@ -334,9 +341,9 @@ h2 {
     }
 
     .timeline-parts-two {
-        width: 51%;
+        width: 10%;
         height: 200px;
-        float: right;
+        float: left;
         text-align: center;
         border: 2px solid grey;
         box-sizing: border-box;
@@ -345,6 +352,16 @@ h2 {
         padding: 40px 5px;
         background-color: white;
         color: #909090;
+    }
+
+    .timeline-parts-one {
+        width: 51%;
+        float: left;
+    }
+
+    .timeline-parts-two {
+        width: 51%;
+        float: right;
         margin-top: -1px;
     }
 
@@ -444,11 +461,11 @@ h2 {
         height: 220px;
         margin-top: -75px;
     }
-    
+
     #video-title {
         text-align: center;
     }
-    
+
     iframe {
         width: 300px;
         height: 200px;
