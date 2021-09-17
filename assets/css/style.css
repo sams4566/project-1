@@ -296,7 +296,7 @@ h2 {
     float: right;
 }
 
-#bio {
+#early-years-bio {
     border: 2px solid #606060;
     height: 500px;
     width: 500px;
@@ -304,12 +304,12 @@ h2 {
     border-radius: 4px;
 }
 
-#bio h1 {
+#early-years h1 {
     margin: 10px 10px 0 10px;
     font-size: 250%;
 }
 
-#bio p {
+#early-years p {
     margin: 10px 0 0 10px;
     font-size: 115%;
     color: black;
