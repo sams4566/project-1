@@ -12,16 +12,21 @@ body {
     color: #606060;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Playfair Display', sans-serif;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 #logo {
     float: left;
     font-size: 250%;
     margin-left: 10px;
+    line-height: 75px;
+}
+
+p {
+    font-weight: bold;
 }
 
 /* navigation links */
@@ -39,11 +44,8 @@ h2 {
 
 #menu {
     font-size: 120%;
-}
-
-#menu,
-#logo {
     line-height: 75px;
+    font-weight: bold;
 }
 
 #menu li {
@@ -222,7 +224,7 @@ h2 {
 /* timeline.html */
 
 #timeline {
-    height: 580px;
+    height: 800px;
 }
 
 #timeline h1 {
@@ -240,9 +242,8 @@ h2 {
     box-sizing: border-box;
     border-radius: 10px;
     padding: 40px 5px;
-    background-color: white;
-    color: #909090;
-    margin-top: 10px;
+    background-color: #606060;
+    color: white;
     list-style-type: none;
 }
 
@@ -255,9 +256,9 @@ h2 {
     box-sizing: border-box;
     border-radius: 10px;
     padding: 40px 5px;
-    background-color: white;
-    color: #909090;
-    margin-top: 200px;
+    background-color: #606060;
+    color: white;
+    margin-top: 190px;
     list-style-type: none;
 }
 
@@ -267,7 +268,7 @@ h2 {
 
 #timeline p {
     font-size: 110%;
-    color: black;
+    color: white;
 }
 
 #st-pauls {
@@ -279,20 +280,19 @@ h2 {
     overflow: hidden;
     list-style-type: none;
     padding-bottom: 50px;
-    height: 500px;
+    height: 300px;
 }
 
 /* early_years.html */
 
 #early-years {
-    height: 900px;
+    height: 700px;
     width: 100%;
     position: relative;
 }
 
 #early-years-bio {
     width: 50%;
-    margin: 0;
     float: left;
 }
 
@@ -303,9 +303,9 @@ h2 {
 
 #early-years-paragraph {
     border: 2px solid #606060;
-    height: 600px;
+    height: 590px;
     width: 600px;
-    margin: 100px auto 0;
+    margin: 50px 15% 0;
     border-radius: 4px;
 }
 
@@ -320,8 +320,48 @@ h2 {
     color: black;
 }
 
-#early-years-photo img {
+/* #early-years-photo img {
     border-radius: 4px;
+    margin: 20px 0 0 20%;
+} */
+
+#young-winston-churchill {
+    border-radius: 4px;
+    margin: 20px 0 0 20%;
+}
+
+/* For larger to medium screens size from 1250px wide and down */
+@media screen and (max-width: 1250px) {
+
+    #early-years {
+        height: 1340px;
+        width: 100%;
+        position: relative;
+    }
+    
+    #early-years-bio {
+        width: 100%;
+        margin: 0;
+        float: left;
+        display: block;
+    }
+    
+    #early-years-photo {
+        width: 100%;
+        float: left;
+        display: block;
+    }
+    
+    #early-years-paragraph {
+        height: 590px;
+        width: 600px;
+        margin: 30px auto;
+    }
+
+    #young-winston-churchill {
+        margin: 0px auto 0;
+        display: block;
+    }
 }
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -329,53 +369,19 @@ h2 {
 
     .timeline-parts-one {
         width: 10%;
-        height: 200px;
-        float: left;
-        text-align: center;
-        border: 2px solid grey;
-        box-sizing: border-box;
-        border-radius: 10px;
-        padding: 40px 5px;
-        background-color: white;
-        color: #909090;
-    }
-
-    .timeline-parts-two {
-        width: 10%;
-        height: 200px;
-        float: left;
-        text-align: center;
-        border: 2px solid grey;
-        box-sizing: border-box;
-        margin-top: 190px;
-        border-radius: 10px;
-        padding: 40px 5px;
-        background-color: white;
-        color: #909090;
-    }
-
-    .timeline-parts-one {
         width: 51%;
         float: left;
     }
 
     .timeline-parts-two {
+        width: 10%;
         width: 51%;
         float: right;
         margin-top: -1px;
     }
 
     #timeline {
-        height: 2000px;
-    }
-
-    #st-pauls {
-        background-image: url('../images/st-pauls4.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        overflow: hidden;
+        height: 2405px;
     }
 }
 
@@ -402,10 +408,6 @@ h2 {
     #bio {
         margin: 20px auto 0;
     }
-}
-
-/*For medium screen sizes from 900px wide and down */
-@media screen and (max-width: 900px) {
 
     #menu {
         clear: left;
@@ -416,6 +418,10 @@ h2 {
 
     #header {
         height: 115px;
+    }
+
+    #menu li {
+        margin-right: 30px;
     }
 }
 
