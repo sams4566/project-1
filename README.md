@@ -1,108 +1,106 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Winston Churchill Biography
 
-Welcome sams4566,
+The Winston Churchill Biography is a site that has arisen to inform users about the life and achievements of Winston Churchill. Users of the site will be able to find out information about Winston Churchill through a number of different formats such as videos, timelines, images and short facts to help them digest and remember information fast and easily. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Am I Responsive Mockup](https://github.com/sams4566/project-1/blob/main/media/winston1.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
+- __Navigation__
 
-## Gitpod Reminders
+  - Featured at the top of the page are three links that assist users with smooth navigation. There are two links to the home page (one in the top left ‘WINSTON CHURCHILL    BIOGRAPHY’ and one in the top right ‘Home’) and one link to the ‘Timeline’ section.
+  - The navigation bar is the same on both pages which makes the site streamlined and is situated at the top of the page similar to most websites. 
+  - The contracting colours of white, grey and black helps establish that the page is set in the early 1900’s due to cameras being in black and white. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Nav bar](https://github.com/sams4566/project-1/blob/main/media/winston2.jpg)
 
-`python3 -m http.server`
+- __Portrait and supporting paragraph__
 
-A blue button should appear to click: _Make Public_,
+  - The portrait is used to help users quickly establish that the page is regarding Winston Churchill as they are likely to have seen a picture of him before. The image is the first thing users see when they enter the site due to the animation that zooms the image towards the user. 
+  - The supporting paragraph gives a brief summary about who Winston Churchill is which could be all the user needs to gain a quick understanding. 
 
-Another blue button should appear to click: _Open Browser_.
+![Portrait and supporting paragraph](https://github.com/sams4566/project-1/blob/main/media/winston3.jpg)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Interesting Facts Section__
+  - The interesting facts section helps the user digest short and snappy facts that may be of interest to accompany the paragraph above. 
+  - They all include an icon that helps highlight their respective facts.
+  - The number of facts was limited to five so that the user can quickly read them before going onto other sections of the page.
 
-A blue button should appear to click: _Make Public_,
+![Interesting Facts Section](https://github.com/sams4566/project-1/blob/main/media/winston4.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+- __Video Section__
+  - The video section is to allow users to watch a short 4 minute video that sums up Winston Churchill's notable achievements. 
+  - The video is short so that if users would like a quick summary of Winston Churchill they can get it from the front page. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Video section](https://github.com/sams4566/project-1/blob/main/media/winston5.jpg)
 
-To log into the Heroku toolbelt CLI:
+- __The Footer__
+  - The footer contains social media links so the user can keep up to date with additions to the site and find relevant pictures that could be of interest.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Footer](https://github.com/sams4566/project-1/blob/main/media/winston6.jpg)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Timeline__
+  - The timeline section allows the user to piece together the different positions Winston Churchill had throughout his career. 
+  - The background image of St Paul’s Cathedral during the Blitz keeps the page in style with the war time theme.
 
-------
+![Timeline](https://github.com/sams4566/project-1/blob/main/media/winston7.jpg)
 
-## Release History
+- __Future features__
+  - Future features would include in-depth information about each time period of Winston Churchill’s life. The site at the moment is very much the key facts to help users build up a quick picture of Winston Churchill’s life. The site gives a basic structure to allow adding more pages easily.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Testing
+  - I have tested that all the links on the site work and are responsive alongside all the images loading correctly and the video playing when clicked.
+  - I tested this page on different browsers such as Google Chrome, Internet Explorer and Safari. 
+This webpage works on all screen sizes from 320px upwards and is easily readable on all devices. This was tested using the dev tools device toolbar.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Validator Testing
+- HTML
+  - No errors were returned when passing through the official W3C validator
+- CSS
+  - No errors were found when passing through the official (Jigsaw) validator
+- Accessibility
+  - The web page was tested through Lighthouse in dev tools and confirmed a high level of accessibility
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Validator](https://github.com/sams4566/project-1/blob/main/media/winston8.jpg)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Bugs
+#### Solved Bugs 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The video unfortunately wouldn’t play using the below code:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<video src="https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s" controls>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s">Link to the video.</a>
+            </video>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+so after trying a number of different methods using an iframe with the below code allowed the video to play at all screen sizes:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<iframe width="600" height="400" src="https://www.youtube.com/embed/cFUSLK2z6qI" id="video">
+</iframe>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The above code was taken from - https://www.w3schools.com/html/html_youtube.asp 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Unfixed Bugs
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+No unfixed bugs
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the repository for project-1 and then click on the setting tab.
+- Click on the pages tab from the list of options on the left hand side of the page.
+- Select ‘main’ from the button displaying ‘None’ under the ‘Source’ sub-section.
+- Once saved the page will take a couple of seconds to be uploaded onto the web. The link to the page will be provided above the ‘Source’ sub-section when refreshed
+- The live link can be found here - https://sams4566.github.io/project-1/
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Credits
+### Content
+- The facts and information on the home page were from both https://en.wikipedia.org/wiki/Winston_Churchill and https://www.biography.com/political-figure/winston-churchill 
+- The timeline information was taken from - https://www.chu.cam.ac.uk/archives/collections/churchill-papers/sir-winston-churchill-chronology/
+- The code for the social media links was taken from the Code Institute Love Running Project
+- The icons throughout the site were taken from Font Awesome
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Media
+- The portrait photo was from https://en.wikipedia.org/wiki/Winston_Churchill
+- The video was from https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s 
+- The background photo for the timeline was from https://en.wikipedia.org/wiki/St_Paul%27s_Survives#/media/File:Air_Raid_Damage_in_Britain_during_the_Second_World_War_HU36220.jpg 
+- The way to embed the video link in an iframe was found at - https://www.w3schools.com/html/html_youtube.asp
+- How to change the width and height of iframes at different screen lengths was found on the following website - https://stackoverflow.com/questions/49419074/how-can-i-change-the-height-of-an-iframe-for-different-screen-sizes 
