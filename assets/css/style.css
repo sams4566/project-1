@@ -180,7 +180,7 @@ h2 {
 /* Video section */
 
 #video-section {
-    height: 380px;
+    height: 480px;
     margin-top: -75px;
 }
 
@@ -196,16 +196,17 @@ h2 {
 /* footer */
 
 #footer {
-    height: 75px;
+    height: 250px;
+    background-color: #8b8888d5;
 }
 
 .social-networks {
     text-align: center;
     height: 5px;
-    padding: 50px;
+    padding: 5px;
 }
 
-.social-networks>li {
+.social-networks li {
     display: inline;
 }
 
@@ -213,13 +214,13 @@ h2 {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #606060
+    color: black;
 }
 
 /* timeline.html */
 
 #timeline {
-    height: 400px;
+    height: 450px;
 }
 
 #st-pauls {
@@ -276,10 +277,8 @@ h2 {
 
 /* early_years.html */
 
-/* Section 1 */
-
 #early-years {
-    height: 500px;
+    height: 900px;
     width: 100%;
     position: relative;
 }
@@ -288,7 +287,6 @@ h2 {
     width: 50%;
     margin: 0;
     float: left;
-    margin-top: 20px;
 }
 
 #early-years-photo {
@@ -296,11 +294,11 @@ h2 {
     float: right;
 }
 
-#early-years-bio {
+#early-years-paragraph {
     border: 2px solid #606060;
-    height: 500px;
-    width: 500px;
-    margin-top: 100px;
+    height: 600px;
+    width: 600px;
+    margin: 100px auto 0;
     border-radius: 4px;
 }
 
