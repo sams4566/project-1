@@ -149,7 +149,7 @@ p {
 }
 
 #circle-picture {
-    background: url('../images/portrait.jpg') no-repeat center -200px;
+    background: url('../images/portrait.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 
@@ -222,6 +222,47 @@ p {
     display: block;
 }
 
+/* Early Life */
+
+#early-life {
+    height: 850px;
+    width: 100%;
+}
+
+#early-life-bio {
+    width: 50%;
+    float: left;
+}
+
+#early-life-photo {
+    width: 50%;
+    float: right;
+}
+
+#early-life-paragraph {
+    border: 2px solid #606060;
+    height: 590px;
+    width: 600px;
+    margin: 110px 15% 0;
+    border-radius: 4px;
+}
+
+#early-life h1 {
+    margin: 10px;
+    font-size: 250%;
+}
+
+#early-life p {
+    margin: 10px 10px 0 10px;
+    font-size: 115%;
+    color: black;
+}
+
+#young-winston-churchill {
+    border-radius: 4px;
+    margin: 85px 0 0 20%;
+}
+
 /* Timeline */
 
 #timeline {
@@ -274,7 +315,7 @@ p {
 }
 
 #st-pauls {
-    background-image: url('../images/st-pauls3.jpg');
+    background-image: url('../images/st-pauls.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -285,65 +326,24 @@ p {
     height: 320px;
 }
 
-/* Early Years */
-
-#early-years {
-    height: 850px;
-    width: 100%;
-}
-
-#early-years-bio {
-    width: 50%;
-    float: left;
-}
-
-#early-years-photo {
-    width: 50%;
-    float: right;
-}
-
-#early-years-paragraph {
-    border: 2px solid #606060;
-    height: 590px;
-    width: 600px;
-    margin: 110px 15% 0;
-    border-radius: 4px;
-}
-
-#early-years h1 {
-    margin: 10px;
-    font-size: 250%;
-}
-
-#early-years p {
-    margin: 10px 10px 0 10px;
-    font-size: 115%;
-    color: black;
-}
-
-#young-winston-churchill {
-    border-radius: 4px;
-    margin: 85px 0 0 20%;
-}
-
 /* For larger screen sizes from 1250px wide and down */
 @media screen and (max-width: 1250px) {
 
-    #early-years {
+    #early-life {
         height: 1340px;
     }
     
-    #early-years-bio {
+    #early-life-bio {
         width: 100%;
         margin: 0;
     }
     
-    #early-years-photo {
+    #early-life-photo {
         width: 100%;
         float: left;
     }
     
-    #early-years-paragraph {      
+    #early-life-paragraph {      
         margin: 30px auto;
     }
 
@@ -437,11 +437,11 @@ p {
 
 /*For smaller screen sizes from 650px wide and down */
 @media screen and (max-width: 650px) {
-    #early-years {
+    #early-life {
         height: 1260px;
     }
 
-    #early-years-paragraph {
+    #early-life-paragraph {
         height: 695px;
         width: 415px;
         margin: 30px auto;
@@ -485,7 +485,7 @@ p {
     }
 
     #circle-picture {
-        background: url('../images/portrait3.jpg') no-repeat -40px -10px;
+        background: url('../images/portrait2.jpg') no-repeat center center;
         height: 100%;
         border-radius: 50%;
 
@@ -530,11 +530,11 @@ p {
         font-size: 130%;
     }
 
-    #early-years {
+    #early-life {
         height: 1390px;
     }
 
-    #early-years-paragraph {
+    #early-life-paragraph {
         height: 860px;
         width: 290px;
         padding-right: 3px;
