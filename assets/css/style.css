@@ -27,6 +27,7 @@ h1, h2 {
 
 p {
     font-weight: bold;
+    font-size: 16px;
 }
 
 /* navigation links */
@@ -311,12 +312,12 @@ p {
 }
 
 #early-years h1 {
-    margin: 10px 10px 0 10px;
+    margin: 10px;
     font-size: 250%;
 }
 
 #early-years p {
-    margin: 10px 0 0 10px;
+    margin: 10px 10px 0 10px;
     font-size: 115%;
     color: black;
 }
@@ -443,10 +444,11 @@ p {
     }
 
     #early-years-paragraph {
-        height: 730px;
+        height: 695px;
         width: 415px;
         margin: 30px auto;
         padding-right: 5px;
+        font-size: 15px;
     }
 
     #young-winston-churchill {
@@ -527,14 +529,15 @@ p {
     }
 
     #early-years {
-        height: 1550px;
+        height: 1390px;
         position: block;
     }
 
     #early-years-paragraph {
-        height: 1020px;
+        height: 860px;
         width: 290px;
         padding-right: 3px;
         padding-bottom: 1px;
+        font-size: 14px;
     }
 }
