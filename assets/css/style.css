@@ -92,7 +92,6 @@ p {
     margin: 55px 1%;
     padding: 0 5%;
     color: black;
-    margin-top: center;
 }
 
 /* Home - Portrait Section */
@@ -440,7 +439,6 @@ p {
 @media screen and (max-width: 650px) {
     #early-years {
         height: 1260px;
-        position: block;
     }
 
     #early-years-paragraph {
@@ -490,9 +488,9 @@ p {
         background: url('../images/portrait3.jpg') no-repeat -40px -10px;
         height: 100%;
         border-radius: 50%;
-        transform: 1.5;
 
-        animates zoom effect on portrait animation-name: portrait-zoom;
+        /* animates zoom effect on portrait  */
+        animation-name: portrait-zoom;
         animation-duration: 4s;
         animation-fill-mode: forwards;
     }
@@ -534,7 +532,6 @@ p {
 
     #early-years {
         height: 1390px;
-        position: block;
     }
 
     #early-years-paragraph {
