@@ -2,7 +2,7 @@
 
 The Winston Churchill Biography is a site that has arisen to inform users about the life and achievements of Winston Churchill. Users of the site will be able to find out information about Winston Churchill through a number of different formats such as videos, timelines, images and short facts to help them digest and remember information fast and easily. 
 
-![Am I Responsive Mockup](https://github.com/sams4566/project-1/blob/main/media/winston1.jpg)
+![Am I Responsive Mockup](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-screens.jpg)
 
 ## Features
 - __Navigation__
@@ -11,43 +11,43 @@ The Winston Churchill Biography is a site that has arisen to inform users about 
   - The navigation bar is the same on all three pages which makes the site streamlined and is situated at the top of the page similar to most websites.
   - The contrasting colours of white, grey and black helps establish that the page is set in the early 1900’s due to cameras being in black and white.
 
-![Nav bar](https://github.com/sams4566/project-1/blob/main/media/winston2.jpg)
+![Nav bar](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-nav.jpg)
 
 - __Portrait and supporting paragraph__
 
   - The portrait is used to help users quickly establish that the page is regarding Winston Churchill as they are likely to have seen a picture of him before. The image is the first thing users see when they enter the site due to the animation that zooms the image towards the user. 
   - The supporting paragraph gives a brief summary about who Winston Churchill is which could be all the user needs to gain a quick understanding. 
 
-![Portrait and supporting paragraph](https://github.com/sams4566/project-1/blob/main/media/winston3.jpg)
+![Portrait and supporting paragraph](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-portrait.jpg)
 
 - __Interesting Facts Section__
   - The interesting facts section helps the user digest short and snappy facts that may be of interest to accompany the paragraph above. 
   - They all include an icon that helps highlight their respective facts.
   - The number of facts was limited to five so that the user can quickly read them before going onto other sections of the page.
 
-![Interesting Facts Section](https://github.com/sams4566/project-1/blob/main/media/winston4.jpg)
+![Interesting Facts Section](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-facts.jpg)
 
 - __Video Section__
   - The video allows users to watch a 4 minute video that sums up Winston Churchill's notable achievements. 
   - The length of the video was kept short to keep in line with the home page allowing users to get key information quickly. 
 
-![Video section](https://github.com/sams4566/project-1/blob/main/media/winston5.jpg)
+![Video section](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-video.jpg)
 
 - __The Footer__
   - The footer contains social media links so the user can keep up to date with additions to the site and find relevant pictures and quotes that could be of interest.
 
-![Footer](https://github.com/sams4566/project-1/blob/main/media/winston6.jpg)
+![Footer](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-footer.jpg)
 
 - __Early Life__
   - The early life section gives the user more in depth information about Winston Churchill’s early life and accompanies the information with a picture of him as a child.
 
-![Early Life](https://github.com/sams4566/project-1/blob/main/media/winston6.jpg)
+![Early Life](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-early-life.jpg)
 
 - __Timeline__
   - The timeline section allows the user to piece together the different positions Winston Churchill had throughout his career. 
   - The image of St Paul’s Cathedral during the Blitz keeps the page in style with the war time theme.
 
-![Timeline](https://github.com/sams4566/project-1/blob/main/media/winston7.jpg)
+![Timeline](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-timeline.jpg)
 
 - __Future features__
   - Future features would include more pages about each time period of Winston Churchill’s life. These pages can be easily added in the same format as the ‘Early Life’ page by creating a new tab.
@@ -65,7 +65,7 @@ The Winston Churchill Biography is a site that has arisen to inform users about 
 - Accessibility
   - The web page was tested through Lighthouse in dev tools and confirmed a high level of accessibility
 
-![Validator](https://github.com/sams4566/project-1/blob/main/media/winston8.jpg)
+![Validator](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-accessibility.jpg)
 
 ### Bugs
 #### Solved Bugs 
@@ -73,10 +73,10 @@ The Winston Churchill Biography is a site that has arisen to inform users about 
 - The video unfortunately wouldn’t play using the below code: 
 
 
-  <video src="https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s" controls>
+  <"video" src="https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s" controls>
                 <p></p>
-                <a href="https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s">Link to the video.</a>
-            </video>
+                <"a" href="https://www.youtube.com/watch?v=cFUSLK2z6qI&t=6s">Link to the video.</"a">
+            </"video">
 
   so after trying a number of different methods using an iframe with the below code allowed the video to play at   all screen sizes:
 
