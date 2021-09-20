@@ -65,7 +65,7 @@ The Winston Churchill Biography is a site that has arisen to inform users about 
 - Accessibility
   - The web page was tested through Lighthouse in dev tools and confirmed a high level of accessibility
 
-![Validator](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-accessibility.jpg)
+![Validator](https://github.com/sams4566/winston-churchill-biography/blob/main/media/winston-churchill-biography-statistics.jpg)
 
 ### Bugs
 #### Solved Bugs 
