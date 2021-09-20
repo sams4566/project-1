@@ -69,7 +69,32 @@ p {
     border-bottom: 1px solid #606060;
 }
 
-/* Section 1 */
+/* Footer */
+
+#footer {
+    height: 150px;
+    background-color: #8b8888d5;
+}
+
+.social-networks {
+    text-align: center;
+    height: 5px;
+    padding: 5px;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 55px 1%;
+    padding: 0 5%;
+    color: black;
+    margin-top: center;
+}
+
+/* Home - Portrait Section */
 
 #portrait-section {
     height: 500px;
@@ -77,14 +102,14 @@ p {
     position: relative;
 }
 
-#left-about {
+#circle-section {
     width: 50%;
     margin: 0;
     float: left;
     margin-top: 20px;
 }
 
-#right-about {
+#bio-section {
     width: 50%;
     float: right;
 }
@@ -145,7 +170,7 @@ p {
     }
 }
 
-/* Interesting facts section */
+/* Home - Interesting facts section */
 
 #facts-section {
     height: 300px;
@@ -181,7 +206,7 @@ p {
     color: #fafafa;
 }
 
-/* Video section */
+/* Home - Video section */
 
 #video-section {
     height: 480px;
@@ -197,32 +222,7 @@ p {
     display: block;
 }
 
-/* footer */
-
-#footer {
-    height: 150px;
-    background-color: #8b8888d5;
-}
-
-.social-networks {
-    text-align: center;
-    height: 5px;
-    padding: 5px;
-}
-
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 55px 1%;
-    padding: 0 5%;
-    color: black;
-    margin-top: center;
-}
-
-/* timeline.html */
+/* Timeline */
 
 #timeline {
     height: 820px;
@@ -285,7 +285,7 @@ p {
     height: 320px;
 }
 
-/* early_years.html */
+/* Early Years */
 
 #early-years {
     height: 850px;
@@ -326,18 +326,16 @@ p {
     margin: 85px 0 0 20%;
 }
 
-/* For larger to medium screens size from 1250px wide and down */
+/* For larger screen sizes from 1250px wide and down */
 @media screen and (max-width: 1250px) {
 
     #early-years {
         height: 1340px;
-        width: 100%;
     }
     
     #early-years-bio {
         width: 100%;
         margin: 0;
-        float: left;
     }
     
     #early-years-photo {
@@ -345,9 +343,7 @@ p {
         float: left;
     }
     
-    #early-years-paragraph {
-        height: 590px;
-        width: 600px;
+    #early-years-paragraph {      
         margin: 30px auto;
     }
 
@@ -357,24 +353,21 @@ p {
     }
 }
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
+    #timeline {
+        height: 2425px;
+    }
     .timeline-parts-one {
-        width: 10%;
         width: 51%;
         float: left;
     }
 
     .timeline-parts-two {
-        width: 10%;
         width: 51%;
         float: right;
         margin-top: -1px;
-    }
-
-    #timeline {
-        height: 2425px;
     }
 }
 
@@ -383,18 +376,15 @@ p {
 
     #portrait-section {
         height: 750px;
-        width: 100%;
-        position: relative;
     }
 
-    #left-about {
+    #circle-section {
         width: 100%;
         margin: 0;
         float: left;
-        margin-top: 20px;
     }
 
-    #right-about {
+    #bio-section {
         width: 100%;
     }
 
@@ -426,16 +416,7 @@ p {
 
     #facts div {
         width: 100%;
-        height: 150px;
-        float: left;
-        padding: 30px 5px 0;
     }
-
-    #video-section {
-        height: px;
-        margin-top: px;
-    }
-
 }
 
 /*For medium screen sizes from 690px wide and down */
@@ -452,12 +433,9 @@ p {
     #menu {
         margin-top: -20px;
     }
-    /* #timeline {
-        height: 2500px;
-    } */
 }
 
-/*For medium screen sizes from 650px wide and down */
+/*For smaller screen sizes from 650px wide and down */
 @media screen and (max-width: 650px) {
     #early-years {
         height: 1260px;
@@ -478,7 +456,7 @@ p {
     }
 }
 
-/*For medium screen sizes from 630px wide and down */
+/*For smaller screen sizes from 630px wide and down */
 @media screen and (max-width: 630px) {
 
     #video-section {
@@ -517,7 +495,7 @@ p {
         animation-fill-mode: forwards;
     }
 
-    #right-about {
+    #bio-section {
         height: 50px;
     }
 
@@ -532,7 +510,6 @@ p {
         height: 895px;
         margin-top: -105px;
     }
-
 }
 
 /* For small screen sizes 450px and down */
@@ -557,6 +534,7 @@ p {
     #early-years-paragraph {
         height: 1020px;
         width: 290px;
-        padding-right: 5px;
+        padding-right: 3px;
+        padding-bottom: 1px;
     }
 }
