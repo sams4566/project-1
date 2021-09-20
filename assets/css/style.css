@@ -34,7 +34,7 @@ p {
 
 #header {
     height: 75px;
-    background-color: #8b8888d5;
+    background-color: rgb(169,169,169);
 
 }
 
@@ -74,7 +74,7 @@ p {
 
 #footer {
     height: 150px;
-    background-color: #8b8888d5;
+    background-color: rgb(169,169,169);
 }
 
 .social-networks {
